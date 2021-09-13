@@ -143,9 +143,11 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
     // Allow for some setup time
     //std::this_thread::sleep_for(std::chrono::milliseconds(1000));
     //Build Streams
-    GraphAssembly::buildStreamsMultithread16(graphStruct, device, signal);
+    GraphAssembly::buildStreamsMultithread(graphStruct, device, signal);
     //Connect Graph
-    GraphAssembly::connectGraphMultithread16(graphStruct, signal);
+
+    GraphAssembly::connectGraphMultithread(graphStruct);
+
     //Commit Graph
     GraphAssembly::commitGraph(graphStruct);
      // Allow for some setup time
