@@ -342,8 +342,6 @@ void GraphAssembly::commitGraph(GraphSettings& graphSettings){
 }
 
 
-
-
 void GraphAssembly::connectGraphMultithread(GraphSettings& graphSettings){
     //This is the function that connects the graph for the multithreaded implementation
     //The difference is that each channel gets its own RX streamer. 
