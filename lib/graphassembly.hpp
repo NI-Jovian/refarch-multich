@@ -15,9 +15,8 @@ class GraphAssembly
         static void buildStreams(GraphSettings& graphSettings, DeviceSettings& deviceSettings, SignalSettings& signalSettings); 
         static void connectGraph(GraphSettings& graphSettings, SignalSettings& signalSettings);
         static void commitGraph(GraphSettings& graphSettings);
+        static void connectGraphMultithread(GraphSettings& graphSettings);
         static void buildStreamsMultithread(GraphSettings& graphSettings, DeviceSettings& deviceSettings, SignalSettings& signalSettings);
-        static void connectGraphMultithread(GraphSettings& graphSettings); 
-        
 };
 
 #endif
