@@ -14,9 +14,9 @@ refarch-multich is developed and tested on Ubuntu 20.04 version. Operating syste
 
 ## Applications
 
-rearch-multich can be used to build stand-alone Open Architectur for Radar and EW Research system with USRP hardware, or with third-party applications. Some common use-cases for the framework are as follows:
+rearch-multich can be used to build stand-alone Open Architecture for Radar and EW Research system with USRP hardware, or with third-party applications. Some common use-cases for the framework are as follows:
 
-- Cognative Radar
+- Cognitive Radar
 - Antenna Array
 - Beamforming Algorithms 
 - Waveform Testing
